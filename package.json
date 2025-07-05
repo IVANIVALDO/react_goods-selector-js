@@ -1,6 +1,6 @@
 {
   "name": "react_goods-selector-js",
-  "homepage": "https://ivavivaldoreact_goods-selector-js",
+  "homepage": "https://ivanivaldo.github.io/react_goods-selector-js",
   "version": "0.1.0",
   "keywords": [],
   "author": "Mate Academy",
@@ -51,7 +51,7 @@
     "update": "mate-scripts update",
     "postinstall": "npm run update && cypress verify",
     "predeploy": "npm run build",
-    "deploy": "mate-scripts deploy"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
