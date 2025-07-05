@@ -23,13 +23,13 @@ export const App = () => {
       <h1 className="title is-flex is-align-items-center">
         {selectedGood ? (
           <>
-            {selectedGood} is selected
+            {`${selectedGood} is selected`}
             <button
               data-cy="ClearButton"
               type="button"
               className="delete ml-3"
               onClick={() => setSelectedGood('')}
-            />
+            ></button>
           </>
         ) : (
           'No goods selected'
